@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //border: 2px solid red;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  .header{
+    width: 100vw;
+    height: 100%;
+  }
+  .Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;   
+    gap: 80px; 
+    margin: 30px;
+    .Card{
+      border: 1px solid hsla(0, 0%, 50%, 0.918);
+      border-radius: 15px;
+      padding: 20px;
+      height: 450px;
+      width: auto;
+    }
+    .tags{
+      padding: 50px;
+      .mr-2{
+        width: 210px;
+        margin: 0;
+      }
+    }
+  } 
+}
