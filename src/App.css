@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.App .header {
+  width: 100vw;
+  height: 100%;
+}
+.App .Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin: 30px;
+}
+.App .Cards .Card {
+  border: 1px solid hsla(0, 0%, 50%, 0.918);
+  border-radius: 15px;
+  padding: 20px;
+  height: 450px;
+  width: auto;
+}
+.App .Cards .tags {
+  padding: 50px;
+}
+.App .Cards .tags .mr-2 {
+  width: 210px;
+  margin: 0;
+}/*# sourceMappingURL=App.css.map */
