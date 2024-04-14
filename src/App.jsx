@@ -45,10 +45,7 @@ const App = () => {
         </div>
       </div>
       <Footer footer="Estas son imágenes de perritos. Espero que no fijes tanto en el aspecto de cada uno, sino que 
-      te concentres el llamado a adoptar que sientas por alguno de ellos"/>
-
-      
-      {/* Resto de tu aplicación */}
+      te concentres en el llamado a adoptar que sientas por alguno de ellos"/>
     </div>
   );
 }
